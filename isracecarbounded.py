@@ -63,7 +63,7 @@ class Solution:
             cur_dir=2
 
             #TODO: Write code below to returnn a boolean value with the solution to the prompt.
-            for i in range(0, 4):
+            for i in range(0, 5):
                 for j in instructions:
                     if j == 'G':
                         if cur_dir == 2:
