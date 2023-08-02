@@ -63,7 +63,8 @@ class Solution:
             cur_dir=2
 
             #TODO: Write code below to returnn a boolean value with the solution to the prompt.
-            for i in range(0, 5):
+            print(instructions)
+            for i in range(4):
                 for j in instructions:
                     if j == 'G':
                         if cur_dir == 2:
@@ -82,9 +83,9 @@ class Solution:
                         cur_dir += 1
                         if cur_dir == 4:
                             cur_dir = 0
-                    res = [0,0]
-                    if cur_pos == res:
-                        return True
+
+                if cur_pos == initial_pos:
+                    return True
 
 
 
