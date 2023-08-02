@@ -58,7 +58,7 @@ class Solution:
             #return type: boolean
             initial_pos=[0,0]
             cur_pos=[0,0]
-            direction= {'S': 0,'W': 1,'N': 2,'E': 3} 
+            direction= {'S': 0,'W': 1,'N': 2,'E': 3}
             #Reference for cur_dir (current direction)
             cur_dir=2
 
@@ -66,13 +66,13 @@ class Solution:
             for i in range(0, 4):
                 for j in instructions:
                     if j == 'G':
-                        if cur_dir = 2:
+                        if cur_dir == 2:
                             cur_pos[1]+=1
-                        elif cur_dir = 3:
+                        elif cur_dir == 3:
                             cur_pos[0]+=1
-                        elif cur_dir = 0:
+                        elif cur_dir == 0:
                             cur_pos[0]-=1
-                        elif cur_dir = 1:
+                        elif cur_dir == 1:
                             cur_pos[1]-=1
                     if j == 'L':
                         cur_dir -= 1
