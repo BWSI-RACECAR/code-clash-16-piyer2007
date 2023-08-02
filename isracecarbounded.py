@@ -58,7 +58,8 @@ class Solution:
             #return type: boolean
             initial_pos=[0,0]
             cur_pos=[0,0]
-            direction= ['S':0,'W':1,'N':2,'E':3] #Reference for cur_dir (current direction)
+            direction= {'S': 0,'W': 1,'N': 2,'E': 3} 
+            #Reference for cur_dir (current direction)
             cur_dir=2
 
             #TODO: Write code below to returnn a boolean value with the solution to the prompt.
