@@ -84,8 +84,8 @@ class Solution:
                         if cur_dir == 4:
                             cur_dir = 0
 
-                if cur_pos == initial_pos:
-                    return True
+            if cur_pos == initial_pos:
+                return True
 
 
 
