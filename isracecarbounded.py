@@ -72,9 +72,9 @@ class Solution:
                         elif cur_dir == 3:
                             cur_pos[0]+=1
                         elif cur_dir == 0:
-                            cur_pos[0]-=1
-                        elif cur_dir == 1:
                             cur_pos[1]-=1
+                        elif cur_dir == 1:
+                            cur_pos[0]-=1
                     if j == 'L':
                         cur_dir -= 1
                         if cur_dir == -1:
